@@ -1,0 +1,1 @@
+It enables you to meddle with scrolls so that 10% scrolls work 100% of the time.

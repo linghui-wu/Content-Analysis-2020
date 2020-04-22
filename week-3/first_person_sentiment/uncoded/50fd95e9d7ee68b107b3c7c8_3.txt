@@ -1,0 +1,1 @@
+Adding just the graphic means I have to lose the Blog header at the top or have the graphic show behind the header which doesnt look right at all.

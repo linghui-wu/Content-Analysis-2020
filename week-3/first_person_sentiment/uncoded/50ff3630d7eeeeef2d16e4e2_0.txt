@@ -1,0 +1,1 @@
+Hod problems getting a wireless connection to the internet, but I discovered it was due to issues with the ADSL router and not with the PC.

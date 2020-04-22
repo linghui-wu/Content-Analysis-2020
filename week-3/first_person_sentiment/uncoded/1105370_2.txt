@@ -1,0 +1,1 @@
+About two seconds into my work on the problem it became evident that I would be required to divide by zero.
