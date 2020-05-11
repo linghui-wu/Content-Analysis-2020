@@ -124,13 +124,13 @@ def main():
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--window-size=1920x1080")
-    browser = webdriver.Chrome(options=chrome_options)
+    browser = webdriver.Chrome()
 
     init_url = "https://millercenter.org/the-presidency/presidential-speeches"
-    urls = get_speech_urls(browser, init_url)
+    links = get_speech_urls(browser, init_url)
 
     for link in links:
-        speech_df = speech_crawler(link)
+        speech_df = speech_crawler(browser, link)
         result_df = result_df.append(speech_df, ignore_index=True)
     browser.close()
 
